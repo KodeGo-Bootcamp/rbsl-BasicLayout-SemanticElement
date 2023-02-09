@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Semantic Layout Exercise</title>
     <style>
-        .nav__link{
-            float:left;
-            margin-left:2%;
+        .nav__link {
+            float: left;
+            margin-left: 2%;
         }
     </style>
 </head>
+
 <body style="padding:0;margin:0;text-align:center;">
     <!--**************************HEADER SECTION*****************************************-->
     <header style="background-color:blue;padding:0;margin:0;">
@@ -27,20 +29,54 @@
     </header>
 
     <!--**************************Main SECTION*****************************************-->
+    <main style="background-color:pink;height:50%;">
+
+        <!----------------SECTION 1----------------->
+        <h2>MAIN CONTENT</h2>
+        <section style="background-color: pink;height: 50%;">
+
+            <!-- ASIDE -->
+            <aside style="background-color:red;height:100%; width:30%; float:right;">
+                <h3>ASIDE</h3>
+                <ul>
+                    <li>Unordered List item</li>
+                    <li>Unordered List item</li>
+                    <li>Unordered List item</li>
+                    <li>Unordered List item</li>
+                    <li>Unordered List item</li>
+                </ul>
+                <ol>
+                    <li>ordered List item</li>
+                    <li>ordered List item</li>
+                    <li>ordered List item</li>
+                    <li>ordered List item</li>
+                    <li>ordered List item</li>
+                </ol>
+
+                <dl style ="text-align:left">
+                    <dt>Coffee</dt>
+                    <dd>Hot and Cold</dd>
+                    <dt>Milk Tea</dt>
+                    <dd>Cold and Sweet.</dd>
+                </dl>
+            </aside>
+             <!-- ARTICLE1  -->
+             <h3>SECTION 1</h3>
+             <article style="background-color:green; height: 50%;">
+                <h3>ARTICLE 1</h3>
+             </article>
+        </section>
+        <hr>
 
 
-    
-    <!----------------SECTION 1----------------->
+        <!----------------SECTION 2----------------->
+        
+        <!-- ARTICLE1  -->
 
-    <!-- ARTICLE1  -->
-    <!-- ASIDE -->
+        <!----------------SECTION 2----------------->
 
+    </main>
 
-    <!----------------SECTION 2----------------->
-
-    <!-- ARTICLE1  -->
-
-    <!----------------SECTION 2----------------->
 
 
 
@@ -48,4 +84,5 @@
 
 
 </body>
+
 </html>
